@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #c81450;
+}
+
+h1{
+    padding: 0.35em 0.5em 0 0.5em;
+    margin-bottom: 0.15em;
+    background-color: rgb(236, 236, 124);
+}
+
+h2{
+    margin-bottom: 0.15em;
+}
+
+h1, h2, figcaption{
+    text-align: center;
+}
+
+p{
+    width: 75%;
+    margin: 2em auto;
+}
+
+.bold{
+    color: rgb(66, 52, 255);
+}
+
+.bold:hover{
+    text-decoration: underline;
+    cursor:default;
+}
+
+
+
+/* images */
+
+img{
+    display: block;
+}
+
+figure#img-divtop{
+    margin: 0 auto 2em;
+    width: 400px;
+}
+
+#imagetop{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+figure#img-div{
+    margin: 2em auto;
+    padding: 1em 0 0 0;
+    width: 300px;
+    clear: both;
+}
+
+#image{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* timeline */
+.t1{
+    float: left;
+    clear: right;
+}
+
+.t2{
+    float: right;
+    clear: left;
+}
+
+.t3{
+    float: left;
+    clear: right;
+}
+
+.t4{
+    float: right;
+    clear: left;
+}
+
+.t5{
+    float: left;
+}
+
+ul.timeline{
+    background-color: grey;
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+ul.timeline li{
+    padding: 30px;
+    margin: 0.4em 0;
+    width: 60%;
+    border-radius: 5px;
+}
+
+li.t:nth-of-type(odd){
+    background-color: rgba(95, 175, 95, 0.9);
+}
+
+li.t:nth-of-type(even){
+    background-color: rgba(236, 236, 124, 0.9);
+}
+
+li.t:nth-of-type(odd) .bold{
+    color: #c81450;
+}
+
+li.t:nth-of-type(even) .bold{
+    color: rgb(66, 52, 255);
+}
+
+
+
+/* mais sobre trajetória */
+#trajectory{
+    margin: 0 auto 0.25em;
+    text-align: center;
+}
